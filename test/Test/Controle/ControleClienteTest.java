@@ -27,7 +27,7 @@ public class ControleClienteTest {
   }
   
   @Test
-  public void testaGetClienteDAO(){
+  public void GetClienteDAOTest(){
       ClienteDAO dao = new ClienteDAO();
       ControleClientes cc = new ControleClientes();
       
