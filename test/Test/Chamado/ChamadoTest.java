@@ -1,16 +1,21 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package Test.Chamado;
 
 import entidade.Chamado;
 import entidade.ClienteEmpresa;
 import entidade.Empresa;
 import entidade.Tecnico;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
+/**
+ *
+ * @author 31550576
+ */
 public class ChamadoTest {
     
     public ChamadoTest() {
