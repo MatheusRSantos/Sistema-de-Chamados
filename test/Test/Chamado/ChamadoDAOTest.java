@@ -32,14 +32,14 @@ public class ChamadoDAOTest {
     }
 
     @Test
-    public void testGetChamados() {
+    public void GetChamadosTest() {
         ChamadoDAO dao = new ChamadoDAO();
         Collection<Chamado> chamados = dao.getChamados();
         assertNotNull(chamados);
     }
 
     @Test
-    public void testGetRegistrosNotNull() {
+    public void GetRegistrosNotNullTest() {
         ChamadoDAO dao = new ChamadoDAO();
         Collection<RegistroChamado> registros = dao.getRegistros();
         assertNotNull(registros);

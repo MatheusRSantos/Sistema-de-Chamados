@@ -6,8 +6,6 @@
 package Test.Cliente;
 
 import Persistencia.ClienteDAO;
-import entidade.ClienteEmpresa;
-import entidade.Empresa;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;

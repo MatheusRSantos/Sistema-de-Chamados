@@ -23,7 +23,7 @@ public class ChamadoTest {
     
  
     @Test
-    public void testConstructorPriority(){
+    public void ConstructorPriorityTest(){
             Tecnico tecnico = new Tecnico("TecTeste",1);
             Empresa empresa = new Empresa(1,"TestEmp");
             ClienteEmpresa cliente_empresa= new ClienteEmpresa(1,empresa,222222,"",1111111);
@@ -32,7 +32,7 @@ public class ChamadoTest {
         
     }
     @Test
-    public void testaConstructorCod(){
+    public void ConstructorCodTest(){
         Tecnico tecnico = new Tecnico("TecTest",1);
             Empresa empresa = new Empresa(1,"TestEmp");
             ClienteEmpresa cliente_empresa= new ClienteEmpresa(1,empresa,222222,"",1111111);
