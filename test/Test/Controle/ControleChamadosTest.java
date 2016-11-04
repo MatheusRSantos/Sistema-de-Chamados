@@ -21,9 +21,9 @@ import org.junit.Test;
 public class ControleChamadosTest {
 
     @Test
-    public void testaAlterarChamado() {
-        Tecnico tecnico = new Tecnico("TecTest", 1);
-        Empresa empresa = new Empresa(1, "TestEmp");
+    public void AlterChamado() {
+        Tecnico tecnico = new Tecnico("Mr Robot", 1);
+        Empresa empresa = new Empresa(1, "EvilCorp");
         ClienteEmpresa cliente_empresa = new ClienteEmpresa(1, empresa, 111111, "", 22222222);
         Chamado chamado = new Chamado(1, "TestTitulo", "TestDesc", 9, tecnico, cliente_empresa, "SOTest", "SOVerTest", "ConecTest", "RedeTest");
         ControleChamados controleChamados = new ControleChamados();
