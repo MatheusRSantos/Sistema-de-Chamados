@@ -28,13 +28,13 @@ public class ControleChamadosTest {
         Chamado chamado = new Chamado(1, "TestTitulo", "TestDesc", 9, tecnico, cliente_empresa, "SOTest", "SOVerTest", "ConecTest", "RedeTest");
         ControleChamados controleChamados = new ControleChamados();
         controleChamados.alterarChamado(chamado, "StatusTest", "CausaTest", "SolutionTest");
-        assertEquals("StatusTeste", chamado.getStatus());
-        assertEquals("CausaTeste", chamado.getCausaProblema());
-        assertEquals("SolutionTeste", chamado.getSolucaoProblema());
+        assertEquals("StatusTest", chamado.getStatus());
+        assertEquals("CausaTest", chamado.getCausaProblema());
+        assertEquals("SolutionTest", chamado.getSolucaoProblema());
     }
 
     @Test
-    public void testaGetChamadoAlterado() {
+    public void GetChamado() {
 
         Tecnico tecnico = new Tecnico("TecTest", 1);
         Empresa empresa = new Empresa(1, "TestEmp");
